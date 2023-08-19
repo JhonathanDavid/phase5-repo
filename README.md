@@ -2,9 +2,10 @@
 # Predictive Modeling 
 # Fund Price Forecasting
 
-![awesome](https://4degrees.ai/wp-content/uploads/elementor/thumbs/Trends-in-Investment-Banking-Technology-q7c1ff421uldqt3vd6g5iv7zjg5yijqwqmdbuosj3s.jpeg)
+![awesome](https://www.inventiva.co.in/wp-content/uploads/2023/02/how-ai-and-ml-can-fight-against-money-laundering-in-investment-firms-1-780x470.webp)
 
-### Project Overview
+
+### 
 
 This project will look into a Real Estate database to find valuable information about the value of homes and return on investment. My company, Xabios data international, has been hired to determind the change of prices in this market over time and to determine which areas have the most potential to increase. Thus, this project is aimed at two very targeted goal using Time Series Modeling :
 Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents story line following this structure:
