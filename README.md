@@ -2,7 +2,7 @@
 # Predictive Modeling 
 # Fund Price Forecasting
 
-![awesome] (https://4degrees.ai/wp-content/uploads/elementor/thumbs/Trends-in-Investment-Banking-Technology-q7c1ff421uldqt3vd6g5iv7zjg5yijqwqmdbuosj3s.jpeg)
+![awesome](https://4degrees.ai/wp-content/uploads/elementor/thumbs/Trends-in-Investment-Banking-Technology-q7c1ff421uldqt3vd6g5iv7zjg5yijqwqmdbuosj3s.jpeg)
 
 ### Project Overview
 
