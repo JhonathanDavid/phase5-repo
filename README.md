@@ -1,5 +1,5 @@
 # Phase 5 Project : Time-Series DataSet
-# Predictive Modeling 
+# Predictive Modeling for The Income Fund of America (AMECX)
 # Fund Price Forecasting
 
 ![awesome](https://www.inventiva.co.in/wp-content/uploads/2023/02/how-ai-and-ml-can-fight-against-money-laundering-in-investment-firms-1-780x470.webp)
