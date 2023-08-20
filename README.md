@@ -38,22 +38,15 @@ Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents s
 2. Project Fund Growth withing one year
 
 
-### Business Understanding & Business Problem
-As important to Telecommunications companies as it is to earn new customers to their services, is the need to retain current customers and preventing them from going to competitors. The act of leaving customers or loss of customers are referred to in this industry as "Churn", from a business perspective. The business would like to understand exactly what factors or situations contribute to churning, and most importantly, post identification of those factors, define precises strategic initiatives to retain customers. This project, therefore aims to help the business first in identifying the attributes and factors that cause the churn, and in turn, building models that can help the business predict it, so that in fact strategic business initiatives can be outlined for solution.
 
 
 ### Important Modeling Sucess Considerations
 
-We are conducting a Time Series Analysis over the Zillow Home Value Index (ZHVI):A data set that tracks a sample of real estate prices over time. In particular, a time series allows one to see what factors influence certain variables from period to period. Time series analysis can be useful to see how a given asset, in this case Real Estate, or economic variable, in this case ROI, changes over time.
+We are conducting a Time Series Analysis over the The Income Fund of America (AMECX):A data set that tracks a sample of investment products, prices over time. In particular, a time series allows one to see what factors influence certain variables from period to period. Time series analysis can be useful to see how a given asset, in this case Fund Price, or economic variable, in this case Price, changes over time.
 
 ### Conclusions
-Modeling derived results to invest in these ZIP Codes due to Higher ROI
-Highest projected ROI:
-* 6069 = 24.12%
-* 6610 = 31%
-* 6330 = 21%
-* 6039 = 19%
-* 6058 = 19%.
+
+* In the next year, the price will likely drop to 21 dollars in the next year. Oscillating between $ 21  - $ 22 dollars
 
 ## Summary
 ```
