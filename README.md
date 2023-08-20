@@ -4,10 +4,28 @@
 
 ![awesome](https://www.inventiva.co.in/wp-content/uploads/2023/02/how-ai-and-ml-can-fight-against-money-laundering-in-investment-firms-1-780x470.webp)
 
+### Business Understanding
+This dataset represents a mutual fund facility called the The Income Fund of America, traded under the ticker name AMECX. In context, this fund is one representative from the more than 8,000 U.S. mutual funds available for investment in this asset class. The combined assets in US mutual funds was estimated $22.11 trillion approximately as of the end of 2022. but there is significant concentration of assets in a relatively small number of mutual fund families (with 50% of all assets held by Top 10 mutual fund families). Understanding mutual funds and having an idea on wether or not to invest in one can be a good advantage for the average or business investor. This analysis aims to help those individuals and provide a ground base for future analysis of other funds using ARIMA modeling.
 
-### 
+### Data Understanding
+Type of file : CSV
 
-This project will look into a Real Estate database to find valuable information about the value of homes and return on investment. My company, Xabios data international, has been hired to determind the change of prices in this market over time and to determine which areas have the most potential to increase. Thus, this project is aimed at two very targeted goal using Time Series Modeling :
+Source: Yahoo Finance
+
+### Feature Engeneering and Technical Indicators
+Columns in our dataframe are explained as below and represent technical indicator in our dataset:
+
+Date : Index in our time series that specifies the date associated with the price. (USD)
+Open Price: The first price of AMECX was purchased on the trading day (USD)
+Close Price: The last price of AMECX was purchased at the end of trading day (USD)
+High: The maximum price of AMECX was purchased on trading day (USD)
+Low: The minimum price of AMECX was purchased on the trading day (USD)
+Adjusted Closing Price: Stock exchanges witness buying and selling of millions of shares every minute. When the exchanges close, the last trading price of the stock is recorded as the closing price of the share (USD)
+Volume: The sum of actual trades made during the trading day (USD)
+
+### Forecasting Methodology
+
+Autoregressive moving average model will be used in Time Series (TS). In statistics and mathematics, TS is a series of data points indexed in time order. A time series is a sequence take at successive equally spaced points in time.This project will look into a Real Estate database to find valuable information about the value of homes and return on investment. My company, Xabios data international, has been hired to determind the change of prices in this market over time and to determine which areas have the most potential to increase. Thus, this project is aimed at two very targeted goal using Time Series Modeling :
 Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents story line following this structure:
 * Part 1: Overview, Business Understanding & Objective 
 * Part 2 : EDA
@@ -16,8 +34,8 @@ Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents s
 
 ### Business Modeling Objectives
 
-1. Understand Real Estate Prices - how they have changed overtime 
-2. Find out Real Estate Areas of Growth Measured by ROI
+1. Understand Fund  - how they have changed overtime 
+2. Project Fund Growth withing one year
 
 
 ### Business Understanding & Business Problem
