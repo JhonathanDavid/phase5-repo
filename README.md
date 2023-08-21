@@ -37,12 +37,10 @@ Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents s
 1. Understand Fund  - how they have changed overtime 
 2. Project Fund Growth withing one year
 
-
-
-
 ### Important Modeling Sucess Considerations
 
 We are conducting a Time Series Analysis over the The Income Fund of America (AMECX):A data set that tracks a sample of investment products, prices over time. In particular, a time series allows one to see what factors influence certain variables from period to period. Time series analysis can be useful to see how a given asset, in this case Fund Price, or economic variable, in this case Price, changes over time.
+
 
 ### Conclusions
 
@@ -50,9 +48,11 @@ We are conducting a Time Series Analysis over the The Income Fund of America (AM
 
 ## Summary
 ```
-├── README.md                      <- The top-level README for reviewers of this project
-├── Folder                         <- Folder containing 2 ipynbs one for EDA and second for Arima Modeling
-├── PDF1_Nontechnical Presentation <- PDF version of Business Power Point 
-├── PDF2_Jupyter Notebook.pdf      <- PDF version of ipynb project containing EDA and Arima modeling
-└── time series folder             <- contains initial instructions
+├── README.md                           <- The top-level README for reviewers of this project
+├── Data                                <- Folder containing the dataset used for Modeling
+├── Notebooks                           <- Folder containing pptx and code
+├── Nontechnical Presentation.pdf       <- PDF version of Business Power Point
+├── index_p5.pdf                        <- PDF version of the Jupyter notebook, containing data preparation and modeling combined
+├── index.ipynb                         <- Jupyter notebook version of ipynb project containing Exploratory Data Analysis & Data Preparation
+└── Modeling.ipynb time series folder   <- Jupyter notebook contains ARIMA modeling
 ```
