@@ -50,9 +50,9 @@ We are conducting a Time Series Analysis over the The Income Fund of America (AM
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── Data                                <- Folder containing the dataset used for Modeling
-├── Notebooks                           <- Folder containing pptx and code
+├── Notebooks                           <- Folder containing pptx and other code
 ├── Nontechnical Presentation.pdf       <- PDF version of Business Power Point
 ├── index_p5.pdf                        <- PDF version of the Jupyter notebook, containing data preparation and modeling combined
 ├── index.ipynb                         <- Jupyter notebook version of ipynb project containing Exploratory Data Analysis & Data Preparation
-└── Modeling.ipynb time series folder   <- Jupyter notebook contains ARIMA modeling
+└── Modeling.ipynb                      <- Jupyter notebook contains ARIMA modeling
 ```
