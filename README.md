@@ -34,7 +34,7 @@ Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents s
 
 ### Business Modeling Objectives
 
-1. Understand Fund  - how they have changed overtime 
+1. Understand Fund  - including composition, set up , prices behavior and stats
 2. Project Fund Growth withing one year
 
 ### Important Modeling Sucess Considerations
