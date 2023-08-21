@@ -1,4 +1,4 @@
-# Phase 5 Project : Time-Series DataSet
+# Phase 5 Project : Time-Series 
 # Predictive Modeling for The Income Fund of America (AMECX)
 # Fund Price Forecasting
 
