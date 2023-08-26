@@ -43,6 +43,62 @@ Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents s
 
 We are conducting a Time Series Analysis over the The Income Fund of America (AMECX):A data set that tracks a sample of investment products, prices over time. In particular, a time series allows one to see what factors influence certain variables from period to period. Time series analysis can be useful to see how a given asset, in this case Fund Price, or economic variable, in this case Price, changes over time.
 
+## Map of Jupyter Notebook (( A Summary of What the Reader will find in Notebook)
+
+**Set Up** - **Data Preparation for Time Series:**
+ 
+ - Exploratory Data Analysis
+ 
+ - Creating Time Series Ready Datasets: 
+     - Dropping unwanted columns
+     - Setting index
+     - Creating Time Series Data 
+     - Visualizations
+      - Stats, Density plots,Histograms
+     
+
+**Phase 1** **- Decomposition & Stationarity Testing**
+- Import of all relevant libraries
+- Assesing Trends 
+    - Components of Time Series
+        - Data, Trends, Seasonality, Random
+- Decomposition 
+- Rolling Stats
+- Visualizations 
+- Stationarity Testing- Dickey-Fuller
+
+**Phase 2** -**Differencing -Auto Correlation and Partial Auto Correlation**
+
+- Differencing
+- Auto-Regressive (ACF) Explanations
+- Partial Auto(PACF) Explanations
+- ACF Visualizations -pre differencing
+- PACF Visualizations - predifferencing
+- Differencing Explained
+- Differencing Code Executed
+
+**Phase 3** **-Models**
+- Approach 1 Baseline Models
+- Approach 2 Other Models
+- AIC 
+    -AIC explained
+- Cross Validations
+- RMSE
+ - Model 1 AR
+ - Model 2 MA
+ - Model 3 ARIMA
+ - Model 4 SARIMAX
+ 
+**Phase 4** **- Forecasting**
+- Forecasting
+
+**Phase 5** - **Conclusion & Next Steps** 
+
+- Conclusion
+
+- Future Next Steps
+
+
 
 ### Conclusions
 
