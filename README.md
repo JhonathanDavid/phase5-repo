@@ -179,25 +179,25 @@ ACF and PACF can provide valuable insights into the behaviour of time series dat
 
 ![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/bd5c4afa-a8fd-49b1-8a6d-fd52020a1a37)
 
+### Various models asses and tried
+(Please see Jupyter Notebook)
 
 
 ## PHASE 4- Forecast 
 
-### Various models
-(Please see Jupyter Notebook)
 
 ### SARIMAX
 
 **SARIMAX** is an extension of the ARIMA class of models. ARIMA models compose 2 parts: the autoregressive term (AR) and the moving-average term (MA). AR views the value at one time just as a weighted sum of past values. The MA model takes that same value also as a weighted sum but of past residuals. Overall, ARIMA is a very good model. However, it cannot handle seasonality, thus SARIMAX is used in this model.
 
-### Prediction Best Model: SARIMAX
+### Prediction Performant Model Recommended: SARIMAX
 
 ![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/8e703e56-8d73-4657-9230-f0a52e4003ef)
 
 
 ### Conclusions
 
-* Best Model is SARIMAX Model
+* Best Performant Model recommended SARIMAX Model 
 * In the next year, the price will likely drop to 21 dollars in the next year. Oscillating between $ 21  - $ 22 dollars
 
 ## Summary
