@@ -189,6 +189,20 @@ ACF and PACF can provide valuable insights into the behaviour of time series dat
 ![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/421d959e-b466-4950-91d3-634263a24709)
 
 
+**Understanding Charts Above**
+
+- Quantile Plots:
+Commonly known as Q-Q Plots, It helps answer the question: "if the set of observations approximately normally distributed?". It is a plot of the quantiles of the first data set against the quantiles of the second data set (Sample vs. Theoritical in this case). Shows you how reliable predictions are within standard deviations. Our Mean Price, is fairly good at predictions within value.
+
+
+- Histogram plus Estimated Density (KDE)
+Undelying distribution for this data. Created bins for the data, and count the number of values creating a histogram. The KDE is the smooth out continous version of that data distribution. Allowing to estimate the probability density function. And the PDF, allows us to find the chances that the value of a random variable will occur within a range of values that you specify. More specifically, a PDF is a function where its integral for an interval provides the probability of a value occurring in that interval.
+
+
+- Correlogram
+A correlogram is a plot of autocorrelations . In time series data, looking at correlations between succesive correlations over time, that are periods apart (it can be 1 period or several periods apart)/For example a data group or point that you observe a month ago or a point you observed two months ago. The horizontal axis is the timeline. The blue shadows are the thresholds. The bars above the shadows are autocorrelations that are statistically significant it is not 0 and they are
+It answers the question: 1) Is that Data Random? It is when not all points are above threshold. 2) Is there a trend in the data? There will be a trend, when the autocorrelations coeffiecient do not fall below the critical upper limit (upper limit) at any lag . If there is a trend the data is not stationary.
+
 ## PHASE 4- Forecast 
 
 ### Prediction Performant Model Recommended: SARIMAX
