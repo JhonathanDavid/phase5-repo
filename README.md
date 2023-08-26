@@ -125,29 +125,79 @@ Time series is affected by four components. They can be separated from the obser
 Time series data can exhibit a variety of patterns, and it is often helpful to split a time series into several components, each representing an underlying pattern category.
 These TS major components are : Seasonal component. Cyclical component. Irregular (noise) component. These components are important because they can affect the time lags or how the lags are shown.
 
-from pylab import rcParams
-rcParams['figure.figsize'] = 18, 8
-decomposition = sm.tsa.seasonal_decompose(y, model='additive')
-fig = decomposition.plot()
-plt.show()
-
 
 
 ![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/45151c94-fbe7-4fa1-af01-7e8d3a062561)
 
 
 
+#### Assesing Stationarity : Dickey-Fuller Test
+
+A Dickey-Fullet Test, tests if the the data is stationary or not.
+The null hypothesis of this test is that time series is not stationary. I'll asses with p.value <.05 , if that holds true the hypothesis is rejected and I say TS is stationary otherwise I'll fail to reject the null hypothesis and the data is not stationary. 
+
+
+## PHASE 2- DIFFERENCING 
+
+Differencing is a technique to transform a non-stationary time series into a stationary one. It involves subtracting the current value of the series from the previous one, or from a lagged value. It can be used to remove the series dependence on time like trends and seasonality. This is an important step in preparing the data used in ARIMA Modeling. To do this we can code a new plot showing the differencing applied. Let's also understand the sub-components of Auto Correlation and Partial Autocorrelation.
+
+
+The value of time gap being considered and is called the lag. A lag 1 autocorrelation is the correlation between values that are one time period apart. More generally, a lag k autocorrelation is the correlation between values that are k time periods apart.
+
+
+Now that I know that the data is not stationary, I'll do one of the most common methods of dealing with both trend and seasonality, called differencing.  In this technique, I take the difference of an observation at a particular time instant with that at the previous instant (also known as a "lag").
+
+
+#### Coding for ACF and PACF  AutoCorrelation and Partial Autocorrelation
+
+**ACF**
+Autocorrelation is a measure of how much the data sets at one point in time influences data sets at a later point in time- ACF seeks to identify how correlated the values in a time series are with each other.
+The ACF starts at a lag of 0, which is the correlation of the time series with itself and therefore results in a correlation of 1. The ACF plots the correlation coefficient against the lag, which is measured in terms of a number of periods or units. In essence, its a measure of the link between the present and the past, therefore it helps us identify the moving average.
+
+
+**PACF**
+Partial Autocorrelation (PACF) is a measure, that can plot the partial correlation coefficients between the series and lags of itself. In general, the "partial" correlation between two variables is the amount of correlation between them, which is not explained by their mutual correlations with a specified set of other variables.
+In general, the "partial" correlation between two variables is the amount of correlation between them which is not explained by their mutual correlations with a specified set of other variables. PACF therefore helps us identify the Auto regressive order. PACF measures directs effects a.k.a Auto Regressive.
+
+**WHAT IS THE DIFFERENCE BETWEEN ACF and PACF ?**
+
+Partial autocorrelation function (PACF) gives the partial correlation of a stationary time series with its own lagged values, regressed the values of the time series at all shorter lags. It contrasts with the autocorrelation function, which does not control for other lags.
+
+Both, ACF and PACF can provide valuable insights into the behaviour of time series data. They are often used to decide the number of Autoregressive (AR) and Moving Average (MA) lags for the ARIMA models. Moreover, they can also help detect any seasonality within the data. The correct application and interpretation are essential in extracting useful information from the ACF and PACF plots.
+
+ACF and PACF can provide valuable insights into the behaviour of time series data. They are often used to decide the number of Autoregressive (AR) and Moving Average (MA) lags for the ARIMA models. Moreover, they can also help detect any seasonality within the data. The correct application and interpretation are essential in extracting useful information from the ACF and PACF plots.
+
+
+![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/b9c708b1-4792-442c-9781-b65eebde6f1a)
 
 
 
+## PHASE 3 - MODELING
+
+
+#### Train Test Split
+
+![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/bd5c4afa-a8fd-49b1-8a6d-fd52020a1a37)
 
 
 
+## PHASE 4- Forecast 
 
+### Various models
+(Please see Jupyter Notebook)
+
+### SARIMAX
+
+**SARIMAX** is an extension of the ARIMA class of models. ARIMA models compose 2 parts: the autoregressive term (AR) and the moving-average term (MA). AR views the value at one time just as a weighted sum of past values. The MA model takes that same value also as a weighted sum but of past residuals. Overall, ARIMA is a very good model. However, it cannot handle seasonality, thus SARIMAX is used in this model.
+
+### Prediction Best Model: SARIMAX
+
+![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/8e703e56-8d73-4657-9230-f0a52e4003ef)
 
 
 ### Conclusions
 
+* Best Model is SARIMAX Model
 * In the next year, the price will likely drop to 21 dollars in the next year. Oscillating between $ 21  - $ 22 dollars
 
 ## Summary
