@@ -174,13 +174,17 @@ ACF and PACF can provide valuable insights into the behaviour of time series dat
 
 ## PHASE 3 - MODELING
 
-
 #### Train Test Split
 
-![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/bd5c4afa-a8fd-49b1-8a6d-fd52020a1a37)
+I'll be conducting a train/test split to start modeling.
+(Please see Jupyter Notebook for code)
+
+### Base Model 
+Naive model, train data shifted by 1 .
+(Please see Jupyter noteboo for detailed code)
 
 ### Various models asses and tried
-(Please see Jupyter Notebook)
+(Please see Jupyter Notebook for detailed code)
 
 ### SARIMAX
 
