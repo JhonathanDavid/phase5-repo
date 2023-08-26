@@ -1,6 +1,8 @@
 # Phase 5 Project : Time-Series 
 # Predictive Modeling for The Income Fund of America (AMECX)
 # Fund Price Forecasting
+# Author : Jhonathan David H. Shaikh
+# Date : August 21st, 2023
 
 ![awesome](https://www.inventiva.co.in/wp-content/uploads/2023/02/how-ai-and-ml-can-fight-against-money-laundering-in-investment-firms-1-780x470.webp)
 
