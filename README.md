@@ -133,6 +133,7 @@ plt.show()
 
 
 
+![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/45151c94-fbe7-4fa1-af01-7e8d3a062561)
 
 
 
