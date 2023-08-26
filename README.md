@@ -43,7 +43,7 @@ Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents s
 
 We are conducting a Time Series Analysis over the The Income Fund of America (AMECX):A data set that tracks a sample of investment products, prices over time. In particular, a time series allows one to see what factors influence certain variables from period to period. Time series analysis can be useful to see how a given asset, in this case Fund Price, or economic variable, in this case Price, changes over time.
 
-## Map of Jupyter Notebook (( A Summary of What the Reader will find in Notebook)
+## Map of Jupyter Notebook ( A Summary of What the Reader will find in Notebook)
 
 **Set Up** - **Data Preparation for Time Series:**
  
@@ -68,7 +68,6 @@ We are conducting a Time Series Analysis over the The Income Fund of America (AM
 - Stationarity Testing- Dickey-Fuller
 
 **Phase 2** -**Differencing -Auto Correlation and Partial Auto Correlation**
-
 - Differencing
 - Auto-Regressive (ACF) Explanations
 - Partial Auto(PACF) Explanations
@@ -93,10 +92,56 @@ We are conducting a Time Series Analysis over the The Income Fund of America (AM
 - Forecasting
 
 **Phase 5** - **Conclusion & Next Steps** 
-
 - Conclusion
-
 - Future Next Steps
+
+## PHASE 1
+
+### Assesing Trends 
+
+Assesing trends is the next step to determine what I need to do with the Dataset and prepare it for modeling, I'll go into these details:
+- Decomposition (Visualizing Seasonality, Trends, Noise)
+- Rolling Mean
+- Dickey Fuller Testing
+
+
+#### Components of Time Series Trends
+Time series is affected by four components. They can be separated from the observed data and in include : Trend, Seasonailty, Cyclical, and Irregular Components.
+
+- **Trends**: The long term movement of the time series. For example, series relating to growth of stock, show upward trend
+
+
+- **Seasonality**: Fluctuations in the data set that follow a regular pattern, cause by outside influences. For example, ice cream sales up in summer months.  
+
+
+- **Cyclical**: When the data rises or falls at non fixed periods. For example, For example, business cycles, in stock, people selling their loosing stock in the year end might drive down always the price of stock.
+
+
+- **Irregular**: Caused by unpredicatable differences. For example, a surprised announcement of a merger and acquisition might drive up or down the price of a stock. 
+
+
+####  Decomposition of Time Series
+
+Time series data can exhibit a variety of patterns, and it is often helpful to split a time series into several components, each representing an underlying pattern category.
+These TS major components are : Seasonal component. Cyclical component. Irregular (noise) component. These components are important because they can affect the time lags or how the lags are shown.
+
+from pylab import rcParams
+rcParams['figure.figsize'] = 18, 8
+decomposition = sm.tsa.seasonal_decompose(y, model='additive')
+fig = decomposition.plot()
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
