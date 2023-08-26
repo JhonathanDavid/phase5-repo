@@ -182,13 +182,14 @@ ACF and PACF can provide valuable insights into the behaviour of time series dat
 ### Various models asses and tried
 (Please see Jupyter Notebook)
 
-
-## PHASE 4- Forecast 
-
-
 ### SARIMAX
 
 **SARIMAX** is an extension of the ARIMA class of models. ARIMA models compose 2 parts: the autoregressive term (AR) and the moving-average term (MA). AR views the value at one time just as a weighted sum of past values. The MA model takes that same value also as a weighted sum but of past residuals. Overall, ARIMA is a very good model. However, it cannot handle seasonality, thus SARIMAX is used in this model.
+
+![image](https://github.com/JhonathanDavid/phase5-repo/assets/102439898/421d959e-b466-4950-91d3-634263a24709)
+
+
+## PHASE 4- Forecast 
 
 ### Prediction Performant Model Recommended: SARIMAX
 
