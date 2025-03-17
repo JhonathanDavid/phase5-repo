@@ -27,7 +27,7 @@ Volume: The sum of actual trades made during the trading day (USD)
 
 ### Forecasting Methodology
 
-Autoregressive moving average model will be used in Time Series (TS). In statistics and mathematics, TS is a series of data points indexed in time order. A time series is a sequence take at successive equally spaced points in time.This project will look into a Real Estate database to find valuable information about the value of homes and return on investment. My company, Xabios data international, has been hired to determind the change of prices in this market over time and to determine which areas have the most potential to increase. Thus, this project is aimed at two very targeted goal using Time Series Modeling :
+Autoregressive moving average model will be used in Time Series (TS). In statistics and mathematics, TS is a series of data points indexed in time order. A time series is a sequence take at successive equally spaced points in time.Thus, this project is aimed at two very targeted goal using Time Series Modeling :
 Jupyter Notebook A brief note on this Jupyter notebook. This notebook presents story line following this structure:
 * Part 1: Overview, Business Understanding & Objective 
 * Part 2 : EDA
